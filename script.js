@@ -28,9 +28,8 @@ console.log(division(6, 2))
 console.log('№5')
 
 function someNum(n) {
-    newNum: for (let i = 0; i <= n; i++) {
+    for (let i = 1; i <= n; i++) {
         console.log(i);
-        if (i !== n) continue newNum;
     }
 }
 someNum(5)
@@ -38,9 +37,8 @@ someNum(5)
 console.log('№6')
 
 function someNum2(n) {
-    newNum: for (let i = n; i > 0; i--) {
+for (let i = n; i > 0; i--) {
         console.log(i);
-        if (i !== 1) continue newNum;
     }
 }
 someNum2(5)
